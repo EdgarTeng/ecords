@@ -1,2 +1,2 @@
-# ecords
-Eventual consistency remote distributed storage
+# cords
+cords is a consistent remote distributed storage

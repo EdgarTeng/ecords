@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.tenchael</groupId>
-        <artifactId>ecords</artifactId>
+        <artifactId>cords</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>ecords-common</artifactId>
+    <artifactId>cords-common</artifactId>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
