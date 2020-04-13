@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
 
     <properties>
-
         <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
