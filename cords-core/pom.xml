@@ -12,6 +12,17 @@
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <finalName>${project.artifactId}</finalName>
     </build>

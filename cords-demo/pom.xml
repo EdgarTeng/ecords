@@ -12,6 +12,13 @@
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <finalName>${project.artifactId}</finalName>
     </build>
