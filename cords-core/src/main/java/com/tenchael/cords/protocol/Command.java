@@ -8,9 +8,7 @@ import java.nio.charset.StandardCharsets;
 import static com.tenchael.cords.utils.Encoding.numToBytes;
 
 /**
- * Command serialization.  We special case when there are few 4 or fewer parameters
- * since most commands fall into that category. Passing bytes, channelbuffers and
- * strings / objects are all allowed. All strings are assumed to be UTF-8.
+ * Command serialization.
  */
 public class Command {
     public static final byte[] ARGS_PREFIX = "*".getBytes();

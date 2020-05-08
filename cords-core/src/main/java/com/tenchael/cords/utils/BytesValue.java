@@ -1,12 +1,5 @@
 package com.tenchael.cords.utils;
 
-/**
- * Doesn't precalculate the hashCode since it is a value and not a key.
- * <p/>
- * User: sam
- * Date: 10/20/12
- * Time: 5:08 PM
- */
 public class BytesValue {
     protected final byte[] bytes;
 

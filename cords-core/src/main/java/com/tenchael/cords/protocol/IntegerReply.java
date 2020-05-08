@@ -6,13 +6,6 @@ import java.io.IOException;
 
 import static com.tenchael.cords.utils.Encoding.numToBytes;
 
-/**
- * Created by IntelliJ IDEA.
- * User: sam
- * Date: 7/29/11
- * Time: 10:23 AM
- * To change this template use File | Settings | File Templates.
- */
 public class IntegerReply implements Reply<Long> {
     public static final char MARKER = ':';
     private static IntegerReply[] replies = new IntegerReply[512];

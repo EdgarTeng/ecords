@@ -4,10 +4,6 @@ import java.util.Comparator;
 
 /**
  * A hashmap friendly key.
- * <p/>
- * User: sam
- * Date: 7/28/11
- * Time: 7:03 PM
  */
 public class BytesKey extends BytesValue implements Comparable<BytesKey> {
     private static final Comparator<byte[]> COMPARATOR = LexicographicalComparator.INSTANCE;
